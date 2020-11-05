@@ -8,11 +8,9 @@
     tools:context=".MainActivity" >
 
     <ImageButton
-        android:id="@+id/boton_bienvenidos"
+        android:id="@+id/btn_a1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@mipmap/bienbenido"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:color/transparent"
-        tools:layout_editor_absoluteY="-7dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

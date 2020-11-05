@@ -4,24 +4,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?android:attr/windowBackground"
     tools:context=".inicio">
 
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:background="@android:color/holo_green_dark"
+        android:gravity="center"
         android:text="APRENDAMOS LAS VOCALES"
-        tools:layout_editor_absoluteY="87dp"
-        android:textSize="30dp"/>
+        android:textSize="28sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="21dp" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/btn_Aa"
         android:layout_width="305dp"
         android:layout_height="90dp"
-        app:srcCompat="@android:drawable/button_onoff_indicator_on"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="141dp" />
+        android:layout_marginTop="60dp"
+        android:src="@mipmap/letra_a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageButton
+        android:id="@+id/btn_Ee"
+        android:layout_width="305dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/letra_e"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Aa" />
+
+    <ImageButton
+        android:id="@+id/btn_Ii"
+        android:layout_width="305dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/letra_i"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Ee" />
+
+
+    <ImageButton
+        android:id="@+id/btn_Oo"
+        android:layout_width="305dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/letra_o"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Ii" />
+
+    <ImageButton
+        android:id="@+id/btn_Uu"
+        android:layout_width="305dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="52dp"
+        android:src="@mipmap/letra_u"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Oo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
