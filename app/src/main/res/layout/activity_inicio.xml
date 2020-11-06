@@ -35,12 +35,13 @@
             android:id="@+id/btn_Aa"
             android:layout_width="305dp"
             android:layout_height="90dp"
+            android:layout_gravity="center"
             android:layout_marginTop="60dp"
+            android:onClick="a"
             android:src="@mipmap/letra_a"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
-            android:layout_gravity="center"
             tools:ignore="ContentDescription" />
 
 
@@ -48,24 +49,26 @@
             android:id="@+id/btn_Ee"
             android:layout_width="305dp"
             android:layout_height="90dp"
+            android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:background="@mipmap/letra_e"
+            android:onClick="e"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_Aa"
-            android:layout_gravity="center"
             tools:ignore="ContentDescription" />
 
         <ImageButton
             android:id="@+id/btn_Ii"
             android:layout_width="305dp"
             android:layout_height="90dp"
+            android:layout_gravity="center"
             android:layout_marginTop="30dp"
+            android:onClick="i"
             android:src="@mipmap/letra_i"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_Ee"
-            android:layout_gravity="center"
             tools:ignore="ContentDescription" />
 
 
@@ -75,6 +78,7 @@
             android:layout_height="90dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
+            android:onClick="o"
             android:src="@mipmap/letra_o"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -86,8 +90,9 @@
             android:layout_width="305dp"
             android:layout_height="90dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="30dp"
             android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:onClick="u"
             android:src="@mipmap/letra_u"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
